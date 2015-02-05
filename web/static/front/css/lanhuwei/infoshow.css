@@ -1,0 +1,13 @@
+@charset "utf-8";
+i{ font-style: normal;}
+
+.infoshow{ padding: 40px 0 25px;}
+.infoshow .info{ width: 650px; padding: 0 0 0 45px;}
+.info h1{ line-height: 32px; padding: 5px 0 20px; font-size: 22px;}
+.info dl{ line-height: 25px; padding: 5px 0; *zoom: 1;}
+.info dl:after{ display: block; clear: both; height: 0; content: '\200B';}
+.info dt{ float: left; width: 70px; color: #777; text-align: right;}
+.info dd{ float: left; width: 580px;}
+.info dd a{ color: #006197; margin: 0 5px 0 0;}
+.pic{ padding: 0 45px 0 0;}
+.pic img{ width: 240px; height: 300px;}

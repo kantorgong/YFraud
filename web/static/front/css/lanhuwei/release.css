@@ -1,0 +1,70 @@
+@charset "utf-8";
+i{ font-style: normal;}
+.release .rtxt,.release .text{ border: 1px solid #ccc; border-radius: 3px; font-size: 14px; vertical-align: middle; font-family: Microsoft Yahei;}
+.release .rtxt:hover,.release .rtxt:focus,.release .text:hover,.release .text:focus{ border: 1px solid #0187d2; outline: none; box-shadow: 0px 0px 5px rgba(0, 135, 210, .3);}
+
+.release{ padding: 40px 0 25px;}
+.release dl{ line-height: 44px; padding: 10px 0; *zoom: 1;}
+.release dl:after{ display: block; clear: both; height: 0; content: '\200B';}
+.release dt{ float: left; width: 125px; text-align: right;}
+.release dt span{ color: #f00; margin: 0 5px 0 0; vertical-align: middle;}
+.release dd{ float: left; width: 865px;}
+.release .rtxt{height: 44px; line-height: 44px; padding: 10px 5px;}
+.release .txt2{ width: 342px;}
+.release select{width:120px;display:inline-block;vertical-align: middle;color:#555;border:none;background-color:#fff;height:22px;line-height:22px;font-size:14px; margin:0;*margin:-2px; font-family: Microsoft Yahei;}
+.s_ove{ overflow:hidden;*width:116px; *height:18px; display:inline-block; margin:-2px 0 0\9; *margin:2px 0 0;}
+.s_bor{ overflow:hidden;width:120px;display:inline-block;vertical-align: middle;color:#555;border:none;background-color:#fff;height:22px;line-height:22px;padding:10px 5px;font-size:14px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px; margin:0; border:1px solid #ccc; *margin:-8px 0 0;}
+.release .text{ width: 750px; height: 150px; line-height: 25px;}
+.release .file_btn{ vertical-align: middle; padding: 12px 0 0;}
+
+.file-box{ position:relative; width:760px;} 
+.txt_fj{ height: 44px; line-height: 44px; border: none; width: 540px;} 
+.btn_fj{ height: 44px; line-height: 44px; border: none; padding: 0 25px; font-family: Microsoft Yahei; border-radius: 3px; cursor: pointer; background: #dfdfdf;} 
+.btn_fj:hover{ background: #e5e5e5;}
+.file{ position: absolute; top: 0; left: 0; height: 44px; _filter:alpha(opacity:0);opacity: 0;width:102px; cursor: pointer;} 
+
+.tab_zplx{ margin: 0 20px 0 0;}
+.tab_zplx input{ vertical-align: middle;}
+
+.tab_zp{ margin: 0 20px 0 0;}
+.tab_zp input{ vertical-align: middle;}
+.tab_zp_ct{ position: relative; top: -10px; width: 520px; padding: 10px 20px; margin: 0 0 1px; background: #fff9e9;border-top:1px dashed #ccc;}
+.tab_zp_ct .txt_zp{ width: 240px; height: 30px; line-height: 30px; padding: 10px; border: 1px solid #ccc; vertical-align: middle;}
+.tab_zp_ct a{ margin: 0 8px;}
+.tab_zp_ct .btn_zj{ color: #0187d2;}
+.tab_zp_ct .btn_sc{ color: #f00;}
+
+.btn{ overflow: hidden; display: inline-block; height: 46px; line-height: 46px; padding: 0 42px; margin: 0 28px 0 0; background: #006197; color: #fff; font-size: 18px; border-radius: 3px; vertical-align: middle;}
+.btn:hover{ color: #fff; text-decoration: none; background: #006ca6;}
+#niming{ margin: 0 5px 0 0; vertical-align: middle;}
+
+#box{ padding: 8px 0 0;}
+#tagText li{ overflow: hidden; height: 18px; line-height: 18px; float: left; padding: 5px 8px; margin: 0 5px 0 0; background: #ccc;}
+#tagText li a{ overflow: hidden; display: inline-block; width: 14px; height: 14px; line-height: 14px; margin: 0 0 0 5px; font-size: 12px; text-align: center; vertical-align: middle; background: #069; color: #fff; border-radius: 50%;}
+#tagText li a:hover{ text-decoration: none; background: #f00;}
+#setText{ float: left; width: 150px; height: 18px; line-height: 18px; padding: 4px; border: 1px solid #ccc; font: 14px "Microsoft Yahei"; vertical-align: middle;}
+#box span{ float: left; display: inline-block; line-height: 18px; padding: 5px 0 0 5px;}
+.tab_zp_ct{ display: none;}
+
+/*下拉*/
+select.form-control {
+    padding: 4px 6px;
+    height: 44px;
+    border: 1px solid #ccc;
+}
+.form-control, select {
+    border-radius: 0;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    color: #858585;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+}
+/*日历*/
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px;}
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+.ui_tpicker_hour_label,.ui_tpicker_minute_label,.ui_tpicker_second_label,.ui_tpicker_millisec_label,.ui_tpicker_time_label{padding-left:20px}

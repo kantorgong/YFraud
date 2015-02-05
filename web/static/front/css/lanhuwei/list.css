@@ -1,0 +1,16 @@
+@charset "utf-8";
+i{ font-style: normal;}
+.list dl{ padding: 15px 0; border-bottom: 1px dashed #ccc; line-height: 25px;}
+.list dt{ overflow: hidden; height: 25px; margin: 0 0 5px;}
+.list dt a{ font-size: 16px;}
+.list dt a strong,.result .info strong{ color: #ff2a00; font-weight: normal;}
+.list dt span{ float: right; color: #777; font-weight: 400;}
+.list dt span a,.list dd a{ color: #006197; font-size: 14px;}
+.list dd{ color: #777;}
+
+.result{ position: relative; top: -1px; overflow: hidden; height: 32px; line-height: 32px; padding: 10px 0; background: #eaeaea;}
+.result .info{ padding: 0 0 0 15px;}
+.result .info strong{ color: #ff2a00; font-weight: normal;}
+.result .btn{ padding: 0 15px 0 0;}
+.result .btn a{ display: inline-block; padding: 0 20px; margin: 0 0 0 15px; color: #fff; background: #ee7204; border-radius: 5px;}
+.result .btn a:hover{ color: #fff; background: #ff7a05; text-decoration: none;}

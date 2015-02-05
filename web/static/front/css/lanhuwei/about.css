@@ -1,0 +1,36 @@
+@charset "utf-8";
+i{ font-style: normal;}
+.user{ padding: 25px 0;}
+.uc-nav-box{ width: 248px; float: left; _display: inline; min-height: 1px; padding: 0 0 15px; background: #fafafa;}
+.uc-nav-box .box-hd{ height: 50px; margin: 0 30px; border-bottom: 1px solid #dfdfdf;}
+.uc-nav-box .box-hd .title{ font-size: 18px; font-weight: 400; line-height: 50px; color: #000;}
+.uc-nav-list{ margin: 10px 0 0; font-size: 14px;}
+.uc-nav-list li{ position: relative;}
+.uc-nav-list li a{ display: block; padding: 9px 30px; color: #6d6d6d;}
+.uc-nav-list li.cur a{ padding-left: 27px; border-left: 3px solid #006197; color: #333; background-color: #fafafa;}
+.uc-nav-list li a:hover{ color: #006197;}
+.user_r{ float: right; _display: inline; width: 722px; border: 1px solid #ccc;}
+.uc-info-box .box-bd { height: 80px; padding: 30px;  border-bottom: 1px solid #ccc;}
+.uc-info-box .uc-avatar{ float: left; width: 80px; height: 80px; margin-right: 30px; border-radius: 40px;}
+.uc-info-box .uc-welcome font-size: 24px; font-weight: 400; line-height: 1.25; color: #6d6d6d;}
+.uc-info-box .uc-welcome .user-name{ margin-right: 10px; color: #000; }
+.uc-info-box .uc-info-detail{ padding: 10px 0; font-size: 14px; line-height: 1.75; color: #6d6d6d;}
+
+.tit{ position: relative; overflow: hidden; height: 40px; line-height: 40px; padding: 0 15px; margin: 0 0 -1px; border-bottom: 1px solid #ccc;}
+.list dl{ padding: 15px; border-top: 1px dashed #ccc; line-height: 25px;}
+.list dt{ overflow: hidden; height: 25px; margin: 0 0 5px;}
+.list dt a{ font-size: 16px;}
+.list dt a strong,.result .info strong{ color: #ff2a00; font-weight: normal;}
+.list dt span{ float: right; color: #777;}
+.list dt span a,.list dd a{ color: #006197; font-size: 14px;}
+.list dd{ color: #777;}
+
+/* 修改密码 */
+.regist_ct{ padding: 30px 10px 30px 10px;}
+.regist_ct dl{ padding: 0 0 12px; *zoom: 1;}
+.regist_ct dl:after{ clear: both; display: block; height: 0; content: '\200B';}
+.regist_ct dt{ float: left; width: 138px; height: 38px; line-height: 38px; padding: 0 10px 0 0; text-align: right;}
+.regist_ct .txt{ width: 208px; height: 22px; line-height: 22px; padding: 7px 0; border: 1px solid #ccc; text-indent: 1em; box-shadow: 2px 2px 5px #eee inset;}
+.regist_ct dd{ line-height: 38px; color: #777;}
+.regist_ct .btn_zc{ display: block; overflow: hidden; width: 138px; height: 46px; line-height: 46px; text-align: center; color: #fff; font-size: 18px; background: #006197; border-radius: 5px;}
+.regist_ct .btn_zc:hover{ color: #fff; text-decoration: none; background: #006ca6;}

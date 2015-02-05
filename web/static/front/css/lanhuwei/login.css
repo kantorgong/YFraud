@@ -1,0 +1,50 @@
+@charset "utf-8";
+i{ font-style: normal;}
+.login_bg{ width: 800px; padding: 10px; margin: 80px auto; background: #f2f2f2;}
+/* 用户登录 */
+.login{ border: 1px solid #dadada; background: #fff;}
+.login .tit{ overflow: hidden; height: 74px; line-height: 72px; padding: 0 25px; font-size: 22px; color: #1a8bc3; border-bottom: 1px dashed #ccc;}
+.ct{ padding: 60px 0 60px 100px;}
+.login .stxt{ width: 318px; height: 46px; line-height: 46px; padding: 10px 0; border: 1px solid #e6e6e6; font-size: 14px; text-indent: 1em; font-family: "Microsoft Yahei";}
+.login .stxt:hover,.stxt:focus{ box-shadow: 2px 2px 5px #eee inset;}
+.login .txt1{ margin: 0 0 -1px; border-radius: 5px 5px 0 0;height: 46px; line-height: 46px;}
+.login .txt2{ border-radius: 0 0 5px 5px;height: 46px; line-height: 46px;}
+.login .btns{ -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; border: none; display: block; overflow: hidden; width: 312px; height: 46px; line-height: 46px; margin: 15px 0 0; text-align: center; color: #fff; font-size: 16px; background: #006197; border-radius: 5px;}
+.login .btns:hover{ color: #fff; text-decoration: none; background: #006ca6;}
+.login .btn_zc{ background: #fff; color: #7c7c7c; border: 1px solid #e5e5e5;}
+.login .btn_zc:hover{ color: #333; background: #fff; border: 1px solid #ccc;}
+.zddl-area{ -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; width: 320px; padding: 15px 0 0; color: #7c7c7c;}
+.zddl-area .more{ float: right; color: #7c7c7c;}
+.zddl-area .more a{ color: #7c7c7c;}
+.zddl-area .more a:hover{ color: #1a8bc3;}
+.zddl-area input{ vertical-align: middle; margin: 0 3px 0 0;}
+.pl120{ padding-left: 120px;}
+.checkbox label,.pl120,.regist .stxt,.regist .btn_zc{ -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
+
+.tip{ padding: 0 0 0 10px; color: #777;}
+.tip .ico{ display: none; width: 16px; height: 16px; margin: 0 3px 0 0; background: url(../../images/lanhuwei/login-i.png) no-repeat; vertical-align: middle;}
+.error .ico{ display: inline-block; background-position: 0 0;}
+.error{ color: #f00;}
+.right .ico{ display: inline-block; background-position: 0 -40px;}
+.form-group{ margin: 0;}
+
+/* 用户注册 */
+.regist{ border: 1px solid #dadada; background: #fff;}
+.regist .tit{ overflow: hidden; height: 74px; line-height: 72px; padding: 0 25px; font-size: 22px; color: #1a8bc3; border-bottom: 1px dashed #ccc;}
+.regist .more{ float: right; font-size: 14px; line-height: 22px; padding: 40px 20px 0; color: #777;}
+.regist .more a{ color: #1a8bc3;}
+.regist_ct{ padding: 30px 0;}
+.regist_ct dl{ padding: 0 0 12px; *zoom: 1;}
+.regist_ct dl:after{ clear: both; display: block; height: 0; content: '\200B';}
+.regist_ct dt{ font-weight: 400; float: left; width: 118px; height: 38px; line-height: 38px; padding: 0 10px 0 0; text-align: right;}
+.regist .stxt{ width: 268px; height: 22px; line-height: 22px; padding: 7px 0; border: 1px solid #ccc; text-indent: 1em; box-shadow: 2px 2px 5px #eee inset;}
+.regist .txt1{ width: 138px;}
+.regist dd{ line-height: 38px; color: #777;}
+.regist dd img{ display: inline-block; vertical-align: middle;}
+.regist .btn_zc{ border: none; display: block; overflow: hidden; width: 138px; height: 46px; line-height: 46px; text-align: center; color: #fff; font-size: 18px; background: #006197; border-radius: 5px;}
+.regist .btn_zc:hover{ color: #fff; text-decoration: none; background: #006ca6;}
+.regist .xy a{ color: #ff7e00;}
+.regist_ct label{ display: none;}
+.dl_btn_box{ margin-right: 15px;}
+.regist_ct .col-lg-6{ width: 300px;}
+.regist_ct .help-block{ margin: 0;}

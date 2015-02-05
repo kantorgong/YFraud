@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+/* Global CSS */
+html {overflow-y:scroll;}
+body { margin:0; font:14px Microsoft YaHei,"\5B8B\4F53",Arial,HELVETICA; color:#333; background:#fff;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p, textarea{ padding:0; margin:0; }
+table, td, tr, th { vertical-align:top; }
+img { border:0; }
+ol, ul,li { list-style:none; }
+h1,h2,h3,h4{ font-weight:normal;}
+input:hover,input:focus{ outline: none;}
+textarea {-webkit-appearance: textarea; background-color: white; border: 1px solid; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; -webkit-rtl-ordering: logical; -webkit-user-select: text; flex-direction: column; resize: auto; cursor: auto; padding: 2px; white-space: pre-wrap; word-wrap: break-word;}
+
+.frameDiv{ width:990px; margin:0 auto; clear:both;}
+.clear{ clear:both; height:0; line-height:0; font-size:0;}
+.fl{ float:left; _display:inline;}
+.fr{ float:right; _display:inline;}
+.mb20{ margin-bottom: 20px;}
+
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+/*link css*/
+a{ color:#333; text-decoration:none; }
+a:visited { text-decoration:none; }
+a:hover { color:#004e9c; text-decoration:underline; }
+a:active { color:#404040; }
+
+/* topnav */
+.top_nav{ width:100%; height:30px; line-height:30px; background:#3d3c44;}
+.top_nav,.top_nav a{ color:#f1f1f1;}
+.top_nav .fl a{ margin:0 10px;}
+.top_nav .fr a{ display:block; float:left; margin-right:10px; line-height:30px; cursor:pointer;}
+
+/* 顶部导航 */
+.header{ overflow:hidden; height:80px; padding:15px 0; background: #efefef;}
+.logo{ overflow:hidden; display:block;}
+.nav{ overflow: hidden; height: 45px; line-height: 45px; padding: 5px 0 0;}
+.nav li{ float: left; padding: 0 1px;}
+.nav li a{ display: block; float: left; height: 45px; padding: 0 22px; font-size: 18px;}
+.nav .cur a,.nav li a:hover{ background: #1a8bc3; color: #fff; text-decoration: none;}
+
+/* 搜索 */
+.search{ padding: 45px 0; background: #006197;}
+.so_tit{ overflow: hidden; height: 43px;}
+.so_tit li{ float: left; width: 100px; line-height: 43px; margin: 0 5px 0 0; text-align: center; color: #fff; font-size: 16px; background: #41bbed; cursor: pointer; border-radius: 5px 5px 0 0;}
+.so_tit .cur{ background: #fff; color: #333;}
+.so_ct{ overflow: hidden; height: 60px; display: none;}
+.so_ct .stxt{ float: left; width: 700px; height: 70px; padding: 15px 0; color: #555; text-indent: 1em; border: none; *border: 0;font:16px/30px Microsoft YaHei,"\5B8B\4F53"}
+.so_ct .btn{ float: left; width: 76px; height: 60px; background: url(../../images/common/btn.jpg) no-repeat 0 0; border: none; *border: 0; cursor: pointer;}
+.so_ct .btn:hover{ opacity: .9; filter: alpha(opacity=90);}
+.search .btn_jb{ float: right; overflow: hidden; height: 60px; line-height: 60px; padding: 0 30px; color: #fff; background: #eeb404; font-size: 16px; border-radius: 5px;}
+.search .btn_jb:hover{ background: #ffc105; text-decoration: none; color: #fff;}
+
+/* 底部 */
+.footer{ margin: 30px 0 0; padding: 25px 0; line-height: 32px; background: #006197; color: #fff; text-align: center;}
+.footer li a{ padding: 0 15px; color: #fff;}
+
+/* 面包屑 */
+.mbx{ overflow: hidden; height: 30px; line-height: 20px; padding: 0 0 6px; border-bottom: 1px solid #ccc;}
+.mbx span{ overflow: hidden; display: inline-block; width: 14px; height: 12px; margin: 5px 5px 0 0; vertical-align: top; background: url(../../images/lanhuwei/home.jpg) no-repeat;}
+/* 提示 */
+.help-block{display: block;margin-top: 5px;margin-bottom: 10px;color: #da4f49;}

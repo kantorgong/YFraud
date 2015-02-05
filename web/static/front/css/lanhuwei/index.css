@@ -1,0 +1,69 @@
+@charset "utf-8";
+i{ font-style: normal;}
+
+.box1{ padding: 0 0 30px; border-bottom: 1px solid #ccc;}
+.box1 h2{ overflow: hidden; height: 65px; line-height: 65px; font-size: 28px;}
+.box1 ul{ margin: 0 -16px 0 0; _width: 1006px;}
+.box1 li{ float: left; width: 180px; line-height: 20px; margin: 0 16px 0 0; color: #999;}
+.box1 li img{ display: block; width: 180px; height: 118px; margin: 0 0 6px;}
+.box1 li a{ overflow: hidden; display: block; height: 144px;}
+.box1 li p{ overflow: hidden; height: 20px; font-size: 12px;}
+.box1 .first{ overflow: hidden; width: 400px; height: 160px; background: #ededed;}
+.box1 .first span{ display: inline-block; padding: 20px 0 5px;}
+.box1 .first img{ float: left; width: 220px; height: 160px; margin: 0 15px 0 0;}
+.box1 .first a{ display: inline; height: auto;}
+.box1 .first p{ height: auto; font-size: 12px;}
+
+.sld{ position: relative; padding: 30px 0; border-bottom: 1px solid #ccc;}
+#slide{ position: relative; float: left; overflow: hidden; width: 860px; height: 138px;}
+#slide li{-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; float: left; width: 177px; padding: 0 50px 0 0; line-height: 20px; text-align: center;}
+#slide li img{ display: block; width: 177px; height: 110px; margin: 0 0 8px;}
+#prev,#next{ overflow: hidden; float: left; display: block; width: 32px; height: 110px; margin: 0 0 0 26px; background: url(../../images/lanhuwei/right.jpg) no-repeat 0 center; cursor: pointer;}
+#prev{ margin: 0 30px 0 0; background: url(../../images/lanhuwei/left.jpg) no-repeat 0 center;}
+
+.box2{ padding:0 0 30px 0; margin: 0 -50px 0 0; border-bottom: 1px solid #ccc; _width: 1040px;}
+.box2 dl{ float: left; width: 470px; padding: 16px 0 15px 0; margin: -1px 50px 0 0; border-top: 1px dashed #d9d9d9;}
+.box2 dt{ overflow: hidden; height: 28px; line-height: 28px; margin: 0 0 5px; font-size: 16px; font-weight: bold;}
+.box2 dt span{ float: right; color: #777; font-weight: normal;}
+.box2 .txt{ overflow: hidden; height: 50px; line-height: 25px; color: #777;}
+.box2 .txt a{ color: #006197;}
+.box2 .info{ text-align: right;}
+.box2 .info a{ color: #777; margin: 0 0 0 10px;}
+.box2 .info a:hover{ color: #004e9c;}
+
+.box3{ padding:10px 0 30px 0;}
+.box3 .news{ width: 475px;}
+.news .tt{ overflow: hidden; height: 38px; line-height: 38px; margin: 0 0 5px;}
+.news .tt a{ font-size: 18px;}
+.news .tt .more{ float: right; color: #777;}
+.news .tt .more:hover{ color: #004e9c;}
+.news dl{ margin: 0 0 10px;}
+.news dt{ float: right; width: 260px; line-height: 25px; padding: 6px 0; font-size: 16px;}
+.news .txt{ float: right; width: 260px; line-height: 25px; color: #777;}
+.news .img img{ float: left; width: 195px; height: 142px;}
+.news ul{ clear: both;}
+.news li{ overflow: hidden; height: 30px; line-height: 30px;}
+.news li span{ float: right; color: #777;}
+
+.box4 .fuwu,.box4 .cygj{ overflow: hidden; height: 328px; width: 475px; border: 1px solid #e3e3e3;}
+.fuwu .tt,.cygj .tt{ overflow: hidden; height: 38px; line-height: 38px; padding: 0 0 0 15px; font-size: 18px; background: #f1f1f1; border-bottom: 1px solid #e3e3e3;}
+.box4 .fw_news{ padding: 15px 15px 0;}
+.fw_news dt{ float: right; width: 260px; line-height: 25px; padding: 6px 0; font-size: 16px;}
+.fw_news .txt{ float: right; width: 260px; line-height: 25px; color: #777;}
+.fw_news .img img{ float: left; width: 173px; height: 128px;}
+.box4 .fw_wenda{ margin: 0 15px; padding: 12px 0; border-bottom: 1px dashed #e3e3e3;}
+.fw_wenda dt,.fw_wenda dd{height: 18px; line-height: 18px;}
+.fw_wenda dd{ padding: 8px 0 0; color: #777;}
+.fw_wenda dd a{ color: #777;}
+.fw_wenda dd a:hover{ color: #004e9c;}
+.fw_wenda dt span,.fw_wenda dd span{ display: inline-block; *display: inline; *zoom: 1; width: 18px; height: 18px; line-height: 18px; background: #e0741d; color: #fff; text-align: center; margin: 0 8px 0 0;}
+.fw_wenda dd span{ background: #949494;}
+.cygj ul{ padding: 0 0 0 26px;}
+.cygj li{ float: left; *display: inline; *zoom: 1; width: 57px; line-height: 22px; margin: 38px 25px 0; text-align: center;}
+.cygj li img{ width: 57px; height: 57px; margin: 0 0 8px;}
+.cygj li span{ display: block; overflow: hidden; height: 22px;}
+
+.aqwz dt{ overflow: hidden; height: 42px; line-height: 42px; font-size: 28px;}
+.aqwz dd{ color: #777;}
+.aqwz dd a{ line-height: 25px; white-space:nowrap; color: #777;}
+.aqwz dd a:hover{ color: #004e9c;}

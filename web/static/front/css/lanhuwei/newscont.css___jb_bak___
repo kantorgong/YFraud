@@ -1,0 +1,58 @@
+@charset "utf-8";
+i{ font-style: normal;}
+
+.infoshow{ padding: 0 0 25px;}
+.cnew_l{ overflow: hidden; float: left; width: 670px;}
+.cmbx{ line-height: 34px; padding: 0 10px; border-bottom: 1px solid #ddd; background: #eee;}
+.ctit{ margin: 0 15px; padding: 15px 0; border-bottom: 1px dashed #ccc; color: #777;}
+.ctit h1{ font: 24px/45px "Microsoft Yahei"; color: #069; text-align: center;}
+.ctit div{ text-align: center;}
+.ctit div span{ padding: 0 10px;}
+.ccont{ margin: 0 15px; padding: 12px 0; font-size: 16px; line-height: 28px; color: #333;}
+.ccont p{ line-height: 28px; margin: 26px 0; line-height: 28px; color: #333; font-family: "\5B8B\4F53", sans-serif;}
+.cshare{ margin: 0 15px 0; padding: 0 0 60px;}
+.cshare .bdsharebuttonbox { float: right;}
+.ctt{ overflow: hidden; display: block; height: 30px; line-height: 30px; border-bottom: 1px solid #c9c9c9; font-size: 16px; color: #333;}
+
+.cxgyd ul{ float: left; width: 45%; *width: 44%; margin: 10px 0 20px; padding: 0 5% 0 0;}
+.cxgyd .c_ydr{ width: 44%; margin: 10px 0 20px -1px; padding: 0 0 0 6%; border-left: 1px solid #d6d4d4;}
+.cxgyd li{ overflow: hidden; height: 30px; line-height: 30px; font-size: 14px;}
+
+.cnew_r{ overflow: hidden; float: right; width: 280px;}
+
+.crmtw ul{ *width: 290px; margin: 0 -10px 0 0; padding: 20px 0 0;}
+.crmtw li{ overflow: hidden; float: left; width: 135px; height: 115px; margin: 0 10px 20px 0; line-height: 20px;}
+.crmtw li img{ display: block; width: 135px; height: 90px; margin: 0 0 5px;}
+
+.cpdct div{ overflow: hidden; height: 165px; margin: 20px 0;}
+.cpdct div a{ float: left; overflow: hidden; display: inline-block; height: 24px; line-height: 24px; padding: 0 5px; margin: 0 4px 4px 0; font-size: 12px; background: #eee; color: #000;font-family: "宋体";}
+.cpdct div a:hover{ background: #5c5c5c; text-decoration: none; color: #fff;}
+
+/* 热门评论 */
+.pl-title { font-size: 12px; font-weight: 100; margin-bottom: 5px; line-height: 25px; height: 25px;}
+.pl-title span { float: left; font-size: 13px; color: #c2c0c0;}
+.pl-title i{ float: right; color: #777;}
+.pl-reply-box-content textarea { width: 648px; height: 60px; padding: 10px; font-size: 14px; border: 0; outline: none;resize: none; font-family: "Microsoft Yahei"}
+.pl-reply-box .pl-reply-box-content {border-bottom: 1px solid #DDD;}
+.pl-reply-box .pl-reply-box-content .help-block {color: #a94442}
+.pl-reply-box .pl-reply-box-content .help-block {color: #a94442}
+
+.pl-reply-box{ overflow: hidden; border: 1px solid #379BE9;}
+.pl-reply-box .pl-reply-box-footer{ height: 48px; position: relative; text-align: right;}
+.pl-reply-box .pl-reply-box-footer span{ float: left; margin: 12px 0 0 12px; color: #777;}
+.pl-reply-box-footer span a{ color: #069; margin: 0 5px;}
+.btn_fb{ display: inline-block; width: 67px; line-height: 28px; height: 28px; margin: 10px 10px 0 0; text-align: center; background: #379BE9; color: #fff; border-radius: 2px;}
+.btn_fb:hover{ background: #1A649D; text-decoration: none; color: #fff;}
+
+.pl-comment-list{ padding: 15px 0 0;}
+.pl-title-new { color: #379BE9; padding-top: 15px;font-size: 15px; padding: 5px 0; font-weight: 400; border-bottom: 1px solid #e8e8e8;}
+.pl-post { border-bottom: solid 1px #ddd; position: relative; padding-left: 40px; vertical-align: top;}
+.pl-comment-list .pl-avatar { position: absolute; top: 20px; left: 0;}
+.pl-comment-list .pl-post-body {padding-left: 10px;}
+.pl-comment-list .pl-post-body .ops a,.comments .media .media-body .ops span{color: #b6bcc4;  font-size: 12px;  }
+.pl-post-header {padding-top: 18px;line-height: 20px; color: #999;}
+.pl-comment-list .pl-post-header span{ margin: 0 3px 0 7px;}
+.pl-user{ color: #379BE9;}
+.pl-post-content {padding-bottom: 6px;font-size: 14px;line-height: 24px;word-break: break-all;}
+.pl-post-content p {word-wrap: break-word;}
+.pl-post-footer {margin-top: 3px;padding-bottom: 15px; color: #999;}

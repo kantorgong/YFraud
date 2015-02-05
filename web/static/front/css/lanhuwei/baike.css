@@ -1,0 +1,24 @@
+@charset "utf-8";
+i{ font-style: normal;}
+/* 用户登录 */
+.bk_l{ float: left; _display: inline; width: 685px;}
+
+.bk_r{ float: right; _display: inline; width: 270px;}
+.bk_r img{ border: 1px solid #ccc;}
+.bk_l h1{ font-size: 34px; line-height: 34px; margin-bottom: 14px; font-weight: 500; position: relative; overflow: hidden; zoom: 1;}
+.bk_l h1 span{ font-size: 20px; line-height: 20px;}
+.bk_l .ct{ margin: 15px 0 0 0; text-indent: 2em; line-height: 24px; padding: 0 0 30px; color: #333; border-bottom: 1px solid #ccc;}
+.bk_l .ct p{ color: #333;}
+.mulu{position: relative; width: 100%; overflow: hidden; border-bottom: 1px solid #ccc;}
+
+.mulu h2{ position: relative; float: left; display: block; width: 64px; height: 48px; margin: 23px -1px 0 25px; background: #64a0de; color: #fff; border-right: 3px solid #4c88c7; font-size: 18px; line-height: 48px; zoom: 1;text-align: center;}
+.mulu ul{ float: left; width: 563px; padding: 15px 0 15px 30px; min-height: 64px; border-left: 1px solid #ccc;}
+.mulu li{ overflow: hidden; float: left; width: 138px; height: 32px; line-height: 32px; font-size: 16px; color: #006197;}
+.main{ float: left; outline: 0; padding-bottom: 16px; position: relative;}
+.headline-1 { display: block;font-size: 24px;font-family: 微软雅黑,黑体,Verdana;font-weight: 500;line-height: 1px;height: 1px; background: #e3e3e3;margin: 35px 0 15px 0;
+clear: both;zoom: 1;position: relative;}
+.headline-1-index { position: absolute; left: 0; top: -13px;width: 25px;height: 24px;line-height: 24px;font-size: 16px;display: block;margin: 1px 0 0 0;background: #519cea;
+color: #fff;text-align: center;border-radius: 0 2px 2px 0;}
+.headline-1 .headline-content { position: absolute; left: 25px; top: -13px;line-height: 24px;display: block;padding: 0 8px 0 5px;background: #fff;}
+.main .cont p{ line-height: 25px; margin: 10px 0;}
+.main .cont{ padding: 10px 0 0;}
